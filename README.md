@@ -1,4 +1,1 @@
-furaha.github.io
-================
-
-Furaha Software
+[Furaha Software home page](http://furaha.github.io)
