@@ -29,13 +29,17 @@ header {
   overflow: auto;
   line-height: 2em;
   font-weight: 900;
-  font-size: 120%;
+  font-size: 85%;
 }
 header img {
   float: left;
   height: 4em;
   margin: 0 0 0 1ex;
   padding: 0;
+}
+header span {
+  white-space: nowrap;
+  margin: 0.5em;
 }
 header div {
   margin: 0; 
