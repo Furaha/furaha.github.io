@@ -3,42 +3,69 @@
 /* Common
 /*
 /*****************************************************************************/
-
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html, body { 
-  height: 100%; 
-  background-color: #0C2635;
+html {
+  /* background-color: #25809E; */
+  /* background-color: #34A1DC; */
 }
 
 body {
+  height: 100%; 
   width: 40em;
   margin: 0 auto;
-  padding: 0;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: 115%;
-  text-align: center;
+  padding: 0 1em;
+  font-family: lato,Calibri,Arial,sans-serif;
+  border: 1px solid black;
 }
 
 header {
-  background-color: #EB9E4E;
+  margin: 0 0;
+  padding: 0;
+  text-align: right;
+  display: block;
+  overflow: auto;
+  line-height: 2em;
+}
+header img {
+  float: left;
+  width: 12em;
   margin: 0;
-  padding: 1em;
+  padding: 0;
+}
+header div {
+  margin: 0; 
+}
+header a {
+  text-decoration: underline;
+  color: #000;
+}
+section#tagline {
+  background-color: #999;
+  margin: 0 auto;
+  padding: 1ex;
+}
+nav {
+  text-align: center;
+  margin: 1ex auto;
+}
+nav a {
+  color: #000;
+  text-decoration: underline;
+  margin: 0 1em;
 }
 section {
   background-color: #FFF;
-  margin: 0;
+  margin: 1em 0;
   padding: 1em;
   text-align: justify;
+  display: block;
 }
 footer {
+  font-size: 75%;
+  color: #6EDBFF;
   background-color: #9E5B15;
   margin: 0;
   padding: 1em;
+  display: block;
 }
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
@@ -49,6 +76,7 @@ p { margin: 1em 0; }
 a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
+
 
 /*****************************************************************************/
 /*
