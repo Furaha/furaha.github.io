@@ -10,11 +10,15 @@ html {
 
 body {
   height: 100%; 
-  width: 40em;
+  max-width: 60em;
   margin: 0 auto;
-  padding: 0 1em;
-  font-family: lato,Calibri,Arial,sans-serif;
+  padding: 0;
+  /* font-family: lato,Calibri,Arial,sans-serif;*/
+  /*font-family:"Open Sans Condensed Light" ;*/
+  font-family: "ronnia", sans-serif;
   border: 1px solid black;
+  line-height: 1.5em;
+  font-size: 105%;
 }
 
 header {
@@ -24,32 +28,37 @@ header {
   display: block;
   overflow: auto;
   line-height: 2em;
+  font-weight: 900;
+  font-size: 120%;
 }
 header img {
   float: left;
-  width: 12em;
-  margin: 0;
+  height: 4em;
+  margin: 0 0 0 1ex;
   padding: 0;
 }
 header div {
   margin: 0; 
+  padding: 0 1ex 0 0;
 }
 header a {
-  text-decoration: underline;
+  text-decoration: none;
   color: #000;
 }
 section#tagline {
   background-color: #999;
+  background-color: #DFA160;
   margin: 0 auto;
   padding: 1ex;
+  text-align: center;
 }
 nav {
-  text-align: center;
+  text-align: right;
   margin: 1ex auto;
 }
 nav a {
   color: #000;
-  text-decoration: underline;
+  text-decoration: none;
   margin: 0 1em;
 }
 section {
