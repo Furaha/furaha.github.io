@@ -16,9 +16,9 @@ body {
   /* font-family: lato,Calibri,Arial,sans-serif;*/
   /*font-family:"Open Sans Condensed Light" ;*/
   font-family: "ronnia", sans-serif;
-  border: 1px solid black;
   line-height: 1.5em;
   font-size: 105%;
+  background: #f3f3f3;
 }
 
 header {
@@ -40,6 +40,7 @@ header img {
 header span {
   white-space: nowrap;
   margin: 0.5em;
+  display: block;
 }
 header div {
   margin: 0; 
@@ -50,11 +51,15 @@ header a {
   color: #000;
 }
 section#tagline {
-  background-color: #999;
-  background-color: #DFA160;
+  background-color: #5e5e5e;
   margin: 0 auto;
   padding: 1ex;
   text-align: center;
+}
+section#content {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 nav {
   text-align: right;
@@ -66,9 +71,7 @@ nav a {
   margin: 0 1em;
 }
 section {
-  background-color: #FFF;
-  margin: 1em 0;
-  padding: 1em;
+  background-color: #fff;  
   text-align: justify;
   display: block;
 }
