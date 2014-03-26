@@ -18,14 +18,18 @@
   </head>
   <body>
     <header>
-    <a href="/index.html"><img src="/images/furaha-logo-white.jpg" /></a>
+	<div>
+		<a href="/index.html"><img src="/images/furaha-logo-white.jpg" /></a>
+	</div>
+	<div>
       <span>
         <a href="mailto:sales@furahasoftware.com">sales@furahasoftware.com</a>
       </span>
       <span> (775)773-8724 </span>
+	</div>
     </header>
-    <section id="tagline">
-    software developers with a social mission
+    <section class="tagline">
+    Building scalable web based applications with award winning technologies
     </section>
     <nav>
     <a href="/whoweare.html">> Who we are</a>
@@ -33,12 +37,13 @@
     <a href="/blog.html">> Our blog</a>
     <a href="/service.html">> How can we be of service</a>
     </nav>
-
-    <section>
-    {{ content }}
+    <section id="content">{{ content }}</section>
+	<section class="tagline">
+		Building scalable web based applications with award winning technologies
     </section>
-
     <footer>
+		<img id="footer-image" src="/images/Furaha-Software-Elephants-Africa.jpg" alt="Elephants-Africa">
     </footer>
+	
   </body>
 </html>
