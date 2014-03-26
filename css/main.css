@@ -50,7 +50,7 @@ header a {
   text-decoration: none;
   color: #000;
 }
-section#tagline {
+section.tagline {
   background-color: #5e5e5e;
   margin: 0 auto;
   padding: 1ex;
@@ -80,8 +80,12 @@ footer {
   color: #6EDBFF;
   background-color: #9E5B15;
   margin: 0;
-  padding: 1em;
   display: block;
+}
+
+#footer-image{
+  display: block;
+  width: 100%;  
 }
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
