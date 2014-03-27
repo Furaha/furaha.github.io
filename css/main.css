@@ -57,9 +57,26 @@ section.tagline {
   text-align: center;
 }
 section#content {
-  width: 85%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
+  padding: 1em;
+  display: block;
+}
+#form{
+  float:right;
+  width:30%;
+  height: 100%;
+}
+#developers-image{
+  height: 10em;
+  width: 10em;
+  float: right;
+}
+#rails-image{
+  height: 8em;
+  width: 5em;
+  float: left;
 }
 nav {
   text-align: right;
