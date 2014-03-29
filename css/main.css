@@ -4,15 +4,14 @@
 /*
 /*****************************************************************************/
 html {
-  /* background-color: #25809E; */
+  background-color: #FAFAFA;
   /* background-color: #34A1DC; */
 }
 
 body {
   height: 100%; 
   max-width: 60em;
-  margin: 0 auto;
-  padding: 0;
+  margin: 0 auto;  
   /* font-family: lato,Calibri,Arial,sans-serif;*/
   /*font-family:"Open Sans Condensed Light" ;*/
   font-family: "ronnia", sans-serif;
@@ -30,6 +29,7 @@ header {
   line-height: 2em;
   font-weight: 900;
   font-size: 85%;
+  background: #fff;
 }
 header img {
   float: left;
@@ -67,16 +67,27 @@ section#content {
   float:right;
   width:30%;
   height: 100%;
+  background-color: #c8c8c8;
+  padding: 1ex;
+}
+form#form1 #header {
+  display:none;
+}
+form#form1 .btTxt {
+  /* add button styling here */
 }
 #developers-image{
   height: 10em;
-  width: 10em;
+  width: 15em;
   float: right;
 }
 #rails-image{
   height: 8em;
-  width: 5em;
+  width: 6em;
   float: left;
+}
+.image{
+  padding: 1em;
 }
 nav {
   text-align: right;
