@@ -22,7 +22,7 @@ body {
 
 header {
   margin: 0 0;
-  padding: 0;
+  padding: 0 3em;
   text-align: right;
   display: block;
   overflow: auto;
@@ -39,7 +39,7 @@ header img {
 }
 header span {
   white-space: nowrap;
-  margin: 0.5em;
+  margin: 0 0.5em;
   display: block;
 }
 header div {
@@ -57,10 +57,10 @@ section.tagline {
   text-align: center;
 }
 section#content {
-  width: 90%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
-  padding: 1em;
+  padding: 2em 2em .5ex 2em;
   display: block;
 }
 #form{
@@ -69,6 +69,7 @@ section#content {
   height: 100%;
   background-color: #c8c8c8;
   padding: 1ex;
+  margin: 1ex;
 }
 form#form1 #header {
   display:none;
@@ -116,7 +117,9 @@ footer {
   width: 100%;  
 }
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 120%; 
+  font-weight: bold;
+}
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
