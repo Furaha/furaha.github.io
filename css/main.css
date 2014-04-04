@@ -4,15 +4,14 @@
 /*
 /*****************************************************************************/
 html {
-  /* background-color: #25809E; */
+  background-color: #FAFAFA;
   /* background-color: #34A1DC; */
 }
 
 body {
   height: 100%; 
   max-width: 60em;
-  margin: 0 auto;
-  padding: 0;
+  margin: 0 auto;  
   /* font-family: lato,Calibri,Arial,sans-serif;*/
   /*font-family:"Open Sans Condensed Light" ;*/
   font-family: "ronnia", sans-serif;
@@ -23,13 +22,14 @@ body {
 
 header {
   margin: 0 0;
-  padding: 0;
+  padding: 0 3em;
   text-align: right;
   display: block;
   overflow: auto;
   line-height: 2em;
   font-weight: 900;
   font-size: 85%;
+  background: #fff;
 }
 header img {
   float: left;
@@ -39,7 +39,7 @@ header img {
 }
 header span {
   white-space: nowrap;
-  margin: 0.5em;
+  margin: 0 0.5em;
   display: block;
 }
 header div {
@@ -57,26 +57,38 @@ section.tagline {
   text-align: center;
 }
 section#content {
-  width: 90%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
-  padding: 1em;
+  padding: 2em 2em .5ex 2em;
   display: block;
 }
 #form{
   float:right;
   width:30%;
   height: 100%;
+  background-color: #c8c8c8;
+  padding: 1ex;
+  margin: 1ex;
+}
+form#form1 #header {
+  display:none;
+}
+form#form1 .btTxt {
+  /* add button styling here */
 }
 #developers-image{
   height: 10em;
-  width: 10em;
+  width: 15em;
   float: right;
 }
 #rails-image{
   height: 8em;
-  width: 5em;
+  width: 6em;
   float: left;
+}
+.image{
+  padding: 1em;
 }
 nav {
   text-align: right;
@@ -105,7 +117,9 @@ footer {
   width: 100%;  
 }
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 120%; 
+  font-weight: bold;
+}
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
