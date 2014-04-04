@@ -66,7 +66,7 @@ section#content {
 #form{
   float:right;
   width:30%;
-  height: 100%;
+  height: auto;
   background-color: #c8c8c8;
   padding: 1ex;
   margin: 1ex;
@@ -78,13 +78,13 @@ form#form1 .btTxt {
   /* add button styling here */
 }
 #developers-image{
-  height: 10em;
-  width: 15em;
+  width: 30%;
+  height: auto;
   float: right;
 }
 #rails-image{
-  height: 8em;
-  width: 6em;
+  width: 15%;
+  height: auto;
   float: left;
 }
 .image{
