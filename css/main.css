@@ -58,6 +58,7 @@ section.tagline {
 }
 section#content {
   width: 85%;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 2em 2em .5ex 2em;
@@ -70,6 +71,15 @@ section#content {
   background-color: #c8c8c8;
   padding: 1ex;
   margin: 1ex;
+  display: block;
+}
+#text{
+  float:right;
+  width:65%;
+  height:auto;
+}
+.clearfx{
+clear: both;
 }
 form#form1 #header {
   display:none;
