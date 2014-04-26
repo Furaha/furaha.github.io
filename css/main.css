@@ -67,16 +67,16 @@ section#content {
 }
 #form{
   float:right;
-  width:30%;
   height: auto;
   background-color: #c8c8c8;
   padding: 1%;
   margin:1%;
   display: block;
+  min-width: 15em;
 }
 #text{
-  float:right;
-  width:65%;
+  float:left;
+  width:100%;
   height:auto;
 }
 .clearfx{
@@ -89,7 +89,7 @@ form#form1 .btTxt {
   /* add button styling here */
 }
 #developers-image{
-  width: 50%;
+  width: 35%;
   height: auto;
   float: right;
 }
