@@ -55,16 +55,14 @@ header a {
 }
 section.tagline {
   background-color: #5e5e5e;
-  margin: 0 auto;
-  padding: 1ex;
+  color: white;
+  font-weight: 700;
+  margin: 0;
+  padding: 0.1em;
   text-align: center;
 }
 section#content {
-  width: 85%;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 2em 2em .5ex 2em;
+  padding: 1em;
   display: block;
 }
 #form{
