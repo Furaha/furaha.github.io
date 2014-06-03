@@ -6,16 +6,16 @@
 html {
   background-color: #FAFAFA;
   /* background-color: #34A1DC; */
+  font-size: 10px;
 }
 
 body {
   height: 100%; 
+  max-width: 60em;
   margin: 0 auto;  
-  /* font-family: lato,Calibri,Arial,sans-serif;*/
-  /*font-family:"Open Sans Condensed Light" ;*/
   font-family: "ronnia", sans-serif;
   line-height: 1.5em;
-  font-size: 105%;
+  font-size: 1.2em;
   background: #f3f3f3;
 }
 
