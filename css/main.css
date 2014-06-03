@@ -16,12 +16,11 @@ body {
   font-family: "ronnia", sans-serif;
   line-height: 1.5em;
   font-size: 1.2em;
-  background: #f3f3f3;
 }
 
 header {
-  margin: 0 0;
-  padding: 0 3em;
+  margin: 0;
+  padding: 1em;
   text-align: right;
   display: block;
   overflow: auto;
@@ -29,6 +28,10 @@ header {
   font-weight: 900;
   font-size: 85%;
   background: #fff;
+  background-image: url("/images/furaha-logo-white.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 90%;
+  background-position: 1em;
 }
 header img {
   float: left;
