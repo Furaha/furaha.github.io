@@ -79,7 +79,7 @@ section#content {
   height:auto;
 }
 .clearfx{
-clear: both;
+  clear: both;
 }
 form#form1 #header {
   display:none;
