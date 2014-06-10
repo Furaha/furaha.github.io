@@ -25,12 +25,19 @@
       'async':true,
       'host':'wufoo.com',
       'header':'show',
-      'ssl':true};
-      s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+      'ssl':true
+      };
+
+      s.src = ('https:' == d.location.protocol ?  'https://' : 'http://') + 
+      'wufoo.com/scripts/embed/form.js';
+
       s.onload = s.onreadystatechange = function() {
       var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-      try { z1ae3l30g95j5g = new WufooForm();z1ae3l30g95j5g.initialize(options);z1ae3l30g95j5g.display(); } catch (e) {}};
-      var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+      try { z1ae3l30g95j5g = new WufooForm();z1ae3l30g95j5g.initialize(options);z1ae3l30g95j5g.display(); 
+      } catch (e) {}};
+
+      var scr = d.getElementsByTagName(t)[0], 
+      par = scr.parentNode; par.insertBefore(s, scr);
       })(document, 'script');
     </script>
     <title>Furaha Software</title>
@@ -42,56 +49,45 @@
         <a href="mailto:sales@furahasoftware.com">sales@furahasoftware.com</a>
       </div>      
     </header>
+
     <section class="tagline">
       Building scalable web based applications with award winning technologies
     </section>    
-    <section id="content">
-      <h1>
-        When you employ Furaha, you're giving our team a better life and getting a great product in return
-      </h1>
 
-      <div id="text">	
-        <div id="form">
-          <div id="wufoo-z1ae3l30g95j5g">
-            Fill out my <a href="https://furahasoftware.wufoo.com/forms/z1ae3l30g95j5g">online form</a>.
-          </div>
-          <div id="wuf-adv" 
-            style="font-family:inherit;font-size:
-            small;color:#a7a7a7;text-align:center;display:block;">
-            Online contact and registration forms from 
-            <a href="http://www.wufoo.com">Wufoo</a>. 
-          </div>
-        </div>	
-        <p> 
-          <img id="developers-image" class="image"
-            src="/images/Furaha-Software-Developers-Africa.jpg"
-            alt="Developers" />
-          Everyone on our Furaha team is based in Africa. They started off as
-          Computer Science graduates. From there, we helped further their
-          education with hands-on training from developers with over 20 years
-          of experience. Furaha was created specifically to help provide
-          working opportunities for Africans interested in developing
-          technologies. Our team is smart, grateful and they're building
-          awesome professional products.  
-        </p>
-        <!-- TODO: Mission statement re: Start a school in Africa for software development with Rails. We use award winning technologies so that your product is top of the line -->
-        <p>
-          <img id="rails-image" class="image"
-            src="/images/Furaha-Software-Ruby-Rails-Tools-Africa-Business.png"
-            alt="Rails" />
-          Everyone on our Furaha team is based in Africa. They started off as
-          Computer Science graduates. From there, we helped further their
-          education with hands-on training from developers with over awesome
-          professional products. Everyone on our Furaha team is based on
-          Africa. They Started off as Computer Science graduates.
-        </p>
-        <p>
-          {{ content }}
-        </p>
-      </div>		
-      <div class="clearfx">
+    <section id="main"> 
+      <h2>When you employ Furaha, you're giving our team a better life and getting a great product in return</h2>
+      <img id="developers-image" class="image"
+        src="/images/Furaha-Software-Developers-Africa.jpg"
+        alt="Developers" />
+      Everyone on our Furaha team is based in Africa. They started off as
+      Computer Science graduates. From there, we helped further their
+      education with hands-on training from developers with over 20 years
+      of experience. Furaha was created specifically to help provide
+      working opportunities for Africans interested in developing
+      technologies. Our team is smart, grateful and they're building
+      awesome professional products.  
+      <!-- TODO: Mission statement re: Start a school in Africa for software development with Rails. We use award winning technologies so that your product is top of the line -->
+    </section>		
+
+    <section id="wufoo">
+      <div id="wufoo-z1ae3l30g95j5g">
+        Fill out my 
+        <a href="https://furahasoftware.wufoo.com/forms/z1ae3l30g95j5g">
+          online form</a>.
+      </div>
+      <div id="wuf-adv" 
+        style="font-family:inherit;font-size:
+        small;color:#a7a7a7;text-align:center;display:block;">
+        Online contact and registration forms from 
+        <a href="http://www.wufoo.com">Wufoo</a>. 
       </div>
     </section>
+
+    <section id="content">
+      {{ content }}
+    </section>
+
+    <div class="clearfx" />
 
     <section class="tagline">
       FURAHA is the Swahili for JOY. 
