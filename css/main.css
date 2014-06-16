@@ -1,8 +1,8 @@
-/*****************************************************************************/
+/***************************************************************************/
 /*
 /* Common
 /*
-/*****************************************************************************/
+/***************************************************************************/
 html {
   background-color: #FAFAFA;
   /* background-color: #34A1DC; */
@@ -17,6 +17,14 @@ body {
   line-height: 1.5em;
   font-size: 1.2em;
 }
+
+.strong {
+  font-weight: 900;
+}
+
+/***************************************************************************/
+/* Header
+/***************************************************************************/
 
 header {
   margin: 0;
@@ -33,26 +41,19 @@ header {
   background-size: auto 90%;
   background-position: 1em;
 }
-header img {
-  float: left;
-  width: 30%;
-  height: auto;
-  margin: 0 0 0 1ex;
-  padding: 0;
-}
-header span {
-  white-space: nowrap;
-  margin: 0 0.5em;
-  display: block;
-}
 header div {
   margin: 0; 
   padding: 0 1ex 0 0;
 }
-header a {
+header div a {
   text-decoration: none;
   color: #000;
 }
+
+/***************************************************************************/
+/* section tagline
+/***************************************************************************/
+
 section.tagline {
   background-color: #5e5e5e;
   color: white;
@@ -61,10 +62,23 @@ section.tagline {
   padding: 0.1em;
   text-align: center;
 }
-section#content {
+
+/***************************************************************************/
+/* section main
+/***************************************************************************/
+
+section#main {
   padding: 1em;
   display: block;
 }
+section#main h2 {
+  text-size: 1.2em;
+}
+
+/***************************************************************************/
+/* section wufoo
+/***************************************************************************/
+
 #form{
   float:right;
   height: auto;
@@ -79,42 +93,11 @@ section#content {
   width:100%;
   height:auto;
 }
-.clearfx{
-  clear: both;
-}
-form#form1 #header {
-  display:none;
-}
-form#form1 .btTxt {
-  /* add button styling here */
-}
-#developers-image{
-  width: 35%;
-  height: auto;
-  float: right;
-}
-#rails-image{
-  width: 15%;
-  height: auto;
-  float: left;
-}
-.image{
-  padding: 1%;
-}
-nav {
-  text-align: right;
-  margin: 1ex auto;
-}
-nav a {
-  color: #000;
-  text-decoration: none;
-  margin: 0 1em;
-}
-section {
-  background-color: #fff;  
-  text-align: justify;
-  display: block;
-}
+
+/***************************************************************************/
+/* footer
+/***************************************************************************/
+
 footer {
   font-size: 75%;
   color: #6EDBFF;
@@ -127,17 +110,16 @@ footer {
   display: block;
   width: 100%;  
 }
-h1, h2, h3, h4, h5, h6 {
-  font-size: 200%; 
-  font-weight: bold;
-  line-height: normal;
+.clearfx{
+  clear: both;
 }
-p { margin: 1% 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
-
+form#form1 #header {
+  display:none;
+}
+form#form1 .btTxt {
+  /* add button styling here */
+}
 
 /*****************************************************************************/
 /*
