@@ -51,47 +51,62 @@ header div a {
 }
 
 /***************************************************************************/
-/* section tagline
+/* div tagline
 /***************************************************************************/
 
-section.tagline {
+div.tagline {
   background-color: #5e5e5e;
   color: white;
   font-weight: 700;
+  font-size: 1.3em;
   margin: 0;
   padding: 0.1em;
   text-align: center;
 }
 
 /***************************************************************************/
-/* section main
+/* div main
 /***************************************************************************/
 
-section#main {
-  padding: 1em;
+div#main {
+  padding: 1ex;
+  margin: 0;
+  background-color: white;
   display: block;
 }
-section#main h2 {
-  text-size: 1.2em;
+div#main h2 {
+  font-size: 1.6em;
+  font-weight: 900;
+  margin: 0 0 1em 0;
+}
+div#main img {
+  width: 100%;
 }
 
 /***************************************************************************/
-/* section wufoo
+/* div content
+/***************************************************************************/
+/***************************************************************************/
+/* div wufoo
 /***************************************************************************/
 
-#form{
-  float:right;
-  height: auto;
-  background-color: #c8c8c8;
-  padding: 1%;
-  margin:1%;
-  display: block;
-  min-width: 15em;
+div#wufoo {
+    background-color: #c8c8c8;
+    padding: 1%;
+    margin: 0;
 }
-#text{
-  float:left;
-  width:100%;
-  height:auto;
+@media screen and (min-width: 48em) {
+  div#main {
+    overflow: auto;
+  }
+  div#content {
+    width: 30em;
+    float: left;
+  }
+  div#wufoo {
+    float: right;
+    width: 26em;
+  }
 }
 
 /***************************************************************************/
@@ -104,6 +119,7 @@ footer {
   background-color: #9E5B15;
   margin: 0;
   display: block;
+  clear: both;
 }
 
 #footer-image{
