@@ -6,7 +6,7 @@
 html {
   background-color: #FAFAFA;
   /* background-color: #34A1DC; */
-  font-size: 12px;
+  font-size: 10px;
 }
 
 body {
@@ -15,10 +15,19 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5em;
   font-size: 1.2em;
+  text-align: center;
 }
 
-.strong {
-  font-weight: 900;
+strong {
+  color: #18a0dd;
+  font-weight: 700;
+}
+span.highlight {
+  color: #ff852b;
+  border-bottom: 0.15em dashed;
+}
+span.underline {
+  border-bottom: 0.15em dashed;
 }
 
 /***************************************************************************/
@@ -26,24 +35,29 @@ body {
 /***************************************************************************/
 
 header {
-  margin: 0;
-  padding: 1em 5em;
+  margin: 0 auto;
+  padding: 1em;
+
   text-align: right;
-  display: block;
-  overflow: auto;
-  line-height: 2em;
-  font-weight: 900;
-  font-size: 100%;
+  font-size: 1.2em;
+
   background: #fff;
   background-image: url("/images/furaha-logo-white.jpg");
   background-repeat: no-repeat;
   background-size: auto 90%;
   background-position: 1em;
+
+  max-width: 60em;
   height: 5em;
+  line-height: 1.5em;
+
+  border: 1px solid red;
 }
 header div {
   margin: 0; 
-  padding: 0 1ex 0 0;
+  padding: 0 ;
+  font-weight: 900;
+  font-size: 1.2em;
 }
 header div a {
   text-decoration: none;
@@ -63,7 +77,7 @@ div.tagline {
   background-color: #5e5e5e;
   color: white;
   font-weight: 700;
-  font-size: 1.3em;
+  font-size: 1.4em;
   margin: 0;
   padding: 1em;
   text-align: center;
@@ -74,18 +88,26 @@ div.tagline {
 /***************************************************************************/
 
 div#main {
-  padding: 1ex;
-  margin: 0;
+  margin: 0 auto;
+  padding: 1em;
   background-color: white;
   display: block;
-}
-div#main h2 {
-  font-size: 1.6em;
-  font-weight: 900;
-  margin: 0 0 1em 0;
+  max-width: 60em;
+  text-align: left;
+  border: 1px solid red;
+  font-size: 1.2em;
 }
 div#main img {
   width: 100%;
+}
+div#main h2 {
+  font-size: 2.4em;
+  font-weight: 900;
+  padding: 0.5em 0;
+  line-height: 1em;
+}
+div#main h2 img {
+  width: 2em; 
 }
 
 /***************************************************************************/
