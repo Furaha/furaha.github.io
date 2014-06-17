@@ -1,10 +1,52 @@
-/* Wufoo styles */
-
-form {
-  background: red;
-  border: 1px solid red;
+div#container {
+  background-color: #c8c8c8;
+  padding: 0;
+  width: 26em;
 }
 
-label {
-  text-decoration: underline;
+div#container h1#logo {
+  display: none;
 }
+
+div#container form header#header {
+  background-color: #439ae4;
+  background-image: url("https://furaha.github.io/images/Furaha-Software-Consultant-Form-Arrow.png"); 
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 4em auto;
+
+  padding: 1em 1em 1em 5em;
+
+  font-size: 100%;
+}
+
+div#container form header#header div {
+  color: white;
+  font-weight: 600;
+}
+div#container form header#header h2 {
+  display: none;
+}
+
+div#container form {
+  background-color: #c8c8c8;
+}
+
+div#container form ul {
+  padding: 0.5em;
+}
+
+div#container form ul li.buttons {
+  text-align: center;
+}
+div#container form ul li.buttons input#saveForm {
+  background-color: #f49752;
+  -webkit-box-shadow: -10px 10px 0px 0px rgba(182, 182, 182, 1);
+  -moz-box-shadow: -10px 10px 0px 0px rgba(182, 182, 182, 1);
+  box-shadow: -10px 10px 0px 0px rgba(182, 182, 182, 1);
+
+  padding: 1em;
+  color: white;
+  font-weight: 700;
+}
+

@@ -16,6 +16,7 @@ body {
   line-height: 1.5em;
   text-align: center;
   font-size: 1.2em;
+  background-color: #F3F3F3;
 }
 
 strong {
@@ -38,18 +39,15 @@ header {
   margin: 0 auto;
   padding: 1em;
 
-  text-align: right;
-
   background: #fff;
-  background-image: url("/images/furaha-logo-white.jpg");
-  background-repeat: no-repeat;
-  background-size: auto 90%;
-  background-position: 1em;
 
   max-width: 60em;
-  height: 5em;
   line-height: 1.5em;
 
+  overflow: auto;
+}
+header img {
+  max-height: 5em;
 }
 header div {
   margin: 0; 
@@ -67,6 +65,15 @@ header div a:hover {
   border-bottom: 0.1em dashed;
 }
 
+@media screen and (min-width: 48em) {
+  header img {
+    float: left;
+  }
+  header div {
+    float: right;
+    text-align: right;
+  }
+}
 /***************************************************************************/
 /* div tagline
 /***************************************************************************/
@@ -104,7 +111,7 @@ div#main img {
 div#main h2 {
   font-size: 2.4em;
   font-weight: 900;
-  line-height: 1em;
+  line-height: 1.2em;
   padding-bottom: 1em;
 }
 div#main h2 img {
