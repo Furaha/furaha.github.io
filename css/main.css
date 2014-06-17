@@ -14,8 +14,8 @@ body {
   margin: 0 auto;  
   font-family: "Open Sans", sans-serif;
   line-height: 1.5em;
-  font-size: 1.2em;
   text-align: center;
+  font-size: 1.2em;
 }
 
 strong {
@@ -39,7 +39,6 @@ header {
   padding: 1em;
 
   text-align: right;
-  font-size: 1.2em;
 
   background: #fff;
   background-image: url("/images/furaha-logo-white.jpg");
@@ -51,13 +50,12 @@ header {
   height: 5em;
   line-height: 1.5em;
 
-  border: 1px solid red;
 }
 header div {
   margin: 0; 
   padding: 0 ;
   font-weight: 900;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 header div a {
   text-decoration: none;
@@ -77,7 +75,7 @@ div.tagline {
   background-color: #5e5e5e;
   color: white;
   font-weight: 700;
-  font-size: 1.4em;
+  font-size: 1.6em;
   margin: 0;
   padding: 1em;
   text-align: center;
@@ -94,8 +92,10 @@ div#main {
   display: block;
   max-width: 60em;
   text-align: left;
-  border: 1px solid red;
-  font-size: 1.2em;
+}
+div#main p {
+  padding-top: 1em;
+  font-size: 1.4em;
 }
 div#main img {
   width: 100%;
@@ -103,8 +103,8 @@ div#main img {
 div#main h2 {
   font-size: 2.4em;
   font-weight: 900;
-  padding: 0.5em 0;
   line-height: 1em;
+  padding-bottom: 1em;
 }
 div#main h2 img {
   width: 2em; 
@@ -141,27 +141,34 @@ div#wufoo {
 /***************************************************************************/
 
 footer {
-  font-size: 75%;
-  color: #6EDBFF;
-  background-color: #9E5B15;
-  margin: 0;
   display: block;
-  clear: both;
+  margin: 0 auto;
+  padding: 1em 0;
+
+  background-color: black;
+
+
 }
 
-#footer-image{
-  display: block;
-  width: 100%;  
-}
-.clearfx{
-  clear: both;
+footer div {
+  background-color: #231f20;
+  color: white;
+
+  text-align: left;
+  font-size: 1.5em;
+  line-height: 1.5;
+
+  margin: 0 auto;
+  padding: 0;
+  max-width: 41em;
+
 }
 
-form#form1 #header {
-  display:none;
-}
-form#form1 .btTxt {
-  /* add button styling here */
+footer img {
+  display: block;
+  max-width: 62em;
+  margin: 1em auto;
+
 }
 
 /*****************************************************************************/
