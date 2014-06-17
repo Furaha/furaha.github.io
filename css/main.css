@@ -6,14 +6,13 @@
 html {
   background-color: #FAFAFA;
   /* background-color: #34A1DC; */
-  font-size: 10px;
+  font-size: 12px;
 }
 
 body {
   height: 100%; 
-  max-width: 60em;
   margin: 0 auto;  
-  font-family: "ronnia", sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5em;
   font-size: 1.2em;
 }
@@ -28,18 +27,19 @@ body {
 
 header {
   margin: 0;
-  padding: 1em;
+  padding: 1em 5em;
   text-align: right;
   display: block;
   overflow: auto;
   line-height: 2em;
   font-weight: 900;
-  font-size: 85%;
+  font-size: 100%;
   background: #fff;
   background-image: url("/images/furaha-logo-white.jpg");
   background-repeat: no-repeat;
   background-size: auto 90%;
   background-position: 1em;
+  height: 5em;
 }
 header div {
   margin: 0; 
@@ -47,7 +47,12 @@ header div {
 }
 header div a {
   text-decoration: none;
-  color: #000;
+  color: #18a0dd;
+}
+header div a:hover {
+  text-decoration: none;
+  color: #ff852b;
+  border-bottom: 0.1em dashed;
 }
 
 /***************************************************************************/
@@ -60,7 +65,7 @@ div.tagline {
   font-weight: 700;
   font-size: 1.3em;
   margin: 0;
-  padding: 0.1em;
+  padding: 1em;
   text-align: center;
 }
 
