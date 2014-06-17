@@ -24,10 +24,10 @@ strong {
 }
 span.highlight {
   color: #ff852b;
-  border-bottom: 0.15em dashed;
+  border-bottom: 0.15em dotted;
 }
 span.underline {
-  border-bottom: 0.15em dashed;
+  border-bottom: 0.15em dotted;
 }
 
 /***************************************************************************/
@@ -96,6 +96,7 @@ div#main {
 div#main p {
   padding-top: 1em;
   font-size: 1.4em;
+  line-height: 1.5em;
 }
 div#main img {
   width: 100%;
@@ -119,20 +120,21 @@ div#main h2 img {
 
 div#wufoo {
     background-color: #c8c8c8;
-    padding: 1%;
+    padding: 0;
     margin: 0;
 }
+
 @media screen and (min-width: 48em) {
   div#main {
     overflow: auto;
   }
   div#content {
-    width: 32em;
+    width: 30em;
     float: left;
   }
   div#wufoo {
     float: right;
-    width: 26em;
+    width: 28em;
   }
 }
 
