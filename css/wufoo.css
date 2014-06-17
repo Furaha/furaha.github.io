@@ -2,4 +2,9 @@
 
 form {
   background-color: red;
+  border: 1px solid red;
+}
+
+label {
+  text-decoration: underline;
 }
