@@ -10,37 +10,12 @@
     <link rel="stylesheet" href="/css/reset.css" />
     <link rel="stylesheet" href="/css/syntax.css" />
     <link rel="stylesheet" href="/css/main.css" />
-    <link rel="stylesheet" href="/css/wufoo.css" />
+    <link rel="stylesheet" href="/css/brace.css" />
 
     <!-- font -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:light&v1' rel='stylesheet' type='text/css' />
     <!-- favicon -->
     <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
-    <script type="text/javascript">
-      var z1ae3l30g95j5g;(function(d, t) {
-      var s = d.createElement(t), options = {
-      'userName':'furahasoftware',
-      'formHash':'z1ae3l30g95j5g',
-      'autoResize':true,
-      'height':'497',
-      'async':true,
-      'host':'wufoo.com',
-      'header':'show',
-      'ssl':true
-      };
-
-      s.src = ('https:' == d.location.protocol ?  'https://' : 'http://') + 
-      'wufoo.com/scripts/embed/form.js';
-
-      s.onload = s.onreadystatechange = function() {
-      var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-      try { z1ae3l30g95j5g = new WufooForm();z1ae3l30g95j5g.initialize(options);z1ae3l30g95j5g.display(); 
-      } catch (e) {}};
-
-      var scr = d.getElementsByTagName(t)[0], 
-      par = scr.parentNode; par.insertBefore(s, scr);
-      })(document, 'script');
-    </script>
     <title>Furaha Software</title>
   </head>
   <body>
@@ -81,14 +56,33 @@
         </p>
         <!-- TODO: Mission statement re: Start a school in Africa for software development with Rails. We use award winning technologies so that your product is top of the line -->
       </div>
-      <div id="wufoo">
-        <div id="wufoo-z1ae3l30g95j5g">
-          Fill out my 
-          <a href="https://furahasoftware.wufoo.com/forms/z1ae3l30g95j5g">
-            online form</a>.
-        </div>
-      </div>
-    </div>		
+      <div id="brace">
+        <form method="POST" action="//forms.brace.io/arafatm@furahasoftware.com">
+          <div id="header" class="info">
+            Learn how we can help you. 
+            Send us a message to get started.
+          </div> 
+          <ul id="data">
+            <li class="input">
+              <input type="text" name="name" placeholder="Your name" />
+            </li>
+            <li class="input">
+              <input type="email" name="_replyto" placeholder="Your email" />
+            </li>
+            <li class="input">
+              <textarea placeholder="How may we help you?"></textarea>
+            </li>
+            <li class="buttons">
+              <input type="submit" value="Good to go    >>>" />
+            </li>
+            <li>
+              <input type="hidden" name="_next" 
+                value="//www.furahasoftware.com" />
+            </li>
+          </ul>
+        </form> 
+      </div>		
+    </div>
 
 
     <!--
