@@ -94,6 +94,24 @@ div.tagline {
 }
 
 /***************************************************************************/
+/* section 
+/***************************************************************************/
+section {
+  max-width: 80em;
+  margin: 0 auto;
+  padding: 1em;
+  background-color: white;
+  display: block;
+  text-align: left;
+  overflow: auto;
+}
+
+section:after {
+  clear:both;
+  display: block;
+  content: " ";
+}
+/***************************************************************************/
 /* div main
 /***************************************************************************/
 
@@ -188,6 +206,44 @@ div#brace form ul li.buttons input {
     float: right;
     width: 20em;
   }
+}
+
+/***************************************************************************/
+/* Section: technology
+/***************************************************************************/
+section#technology {
+  margin: 0 auto;
+  text-align: center;
+}
+section#technology:after {
+  clear:both;
+  display: block;
+  content: " ";
+}
+section#technology img {
+  float: left;
+  max-height: 10em;
+  margin: 1em 0.8em;
+}
+
+/***************************************************************************/
+/* Section: Team
+/***************************************************************************/
+section#team {
+  margin: 0 auto;
+  text-align: center;
+}
+section#team:after {
+  clear:both;
+  display: block;
+  content: " ";
+}
+section#team div {
+  float: left;
+  display: inline-block;
+  border: 1px solid red;
+  width: 17em;
+  margin: 1em;
 }
 
 /***************************************************************************/
