@@ -240,10 +240,12 @@ section#team:after {
 }
 section#team div {
   float: left;
-  display: inline-block;
   border: 1px solid red;
   width: 17em;
   margin: 1em;
+}
+section#team div img {
+  width: 100%;
 }
 
 /***************************************************************************/
