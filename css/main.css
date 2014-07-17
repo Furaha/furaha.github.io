@@ -240,7 +240,6 @@ section#team:after {
 }
 section#team div {
   float: left;
-  border: 1px solid red;
   width: 17em;
   margin: 1em;
 }
