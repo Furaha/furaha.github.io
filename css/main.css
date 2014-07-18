@@ -24,6 +24,16 @@ body {
     font-size: 1em;
   }
 }
+a {
+  text-decoration: none;
+  color: #18a0dd;
+}
+a:hover {
+  text-decoration: none;
+  color: #ff852b;
+  border-bottom: 0.1em dashed;
+}
+
 strong {
   color: #18a0dd;
   font-weight: 700;
@@ -64,16 +74,6 @@ header div {
   font-size: 1.4em;
   height: 90%;
 }
-header div a {
-  text-decoration: none;
-  color: #18a0dd;
-}
-header div a:hover {
-  text-decoration: none;
-  color: #ff852b;
-  border-bottom: 0.1em dashed;
-}
-
 @media screen and (min-width: 48em) {
   header img {
     float: left;
@@ -261,8 +261,8 @@ section#team:after {
 }
 section#team div {
   float: left;
-  width: 17em;
-  margin: 1em;
+  width: 14em;
+  margin: 1em 1em;
 }
 section#team div img {
   width: 100%;
