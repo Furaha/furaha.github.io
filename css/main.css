@@ -19,7 +19,11 @@ body {
   /* background-color: #F3F3F3; */
   background-color: #FFF;
 }
-
+@media screen and (max-width 600px) {
+  body {
+    font-size: 1em;
+  }
+}
 strong {
   color: #18a0dd;
   font-weight: 700;
@@ -124,7 +128,7 @@ section#main {
   text-align: left;
 }
 section#main p {
-  padding-top: 1em;
+  padding: 0.5em;
   font-size: 1.4em;
   line-height: 1.5em;
 }
@@ -132,7 +136,7 @@ section#main img {
   width: 100%;
 }
 section#main h2 {
-  font-size: 2.4em;
+  font-size: 1.8em;
   font-weight: 900;
   line-height: 1.2em;
   padding-bottom: 1em;
@@ -207,6 +211,17 @@ div#brace form ul li.buttons input {
     width: 20em;
   }
 }
+@media screen and (max-width: 48em) {
+  section#main {
+    overflow: auto;
+  }
+  div#content {
+    width: 100%;
+  }
+  div#brace {
+    width: 100%;
+  }
+}
 
 /***************************************************************************/
 /* Section: technology
@@ -224,6 +239,12 @@ section#technology img {
   float: left;
   max-height: 10em;
   margin: 1em 2em;
+}
+@media screen and (max-width: 48em) {
+  section#technology img {
+    max-width: 40%;
+    margin: 2%;
+  }
 }
 
 /***************************************************************************/
@@ -277,6 +298,7 @@ footer img {
   display: block;
   margin: 0em auto;
   padding: 0;
+  max-width: 100%;
 
 }
 
