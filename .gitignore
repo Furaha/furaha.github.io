@@ -1,2 +1,3 @@
 .vagrant/
-_sitevendor/ruby
+_site
+vendor/ruby
