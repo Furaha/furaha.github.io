@@ -1,0 +1,431 @@
+/***************************************************************************/
+/*
+/* Common
+/*
+/***************************************************************************/
+html {
+  background-color: #FAFAFA;
+  /* background-color: #34A1DC; */
+  font-size: 10px;
+}
+
+body {
+  height: 100%; 
+  margin: 0 auto;  
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 1.2em;
+  /* background-color: #F3F3F3; */
+  background-color: #FFF;
+}
+@media screen and (max-width 600px) {
+  body {
+    font-size: 1em;
+  }
+}
+a {
+  text-decoration: none;
+  color: #18a0dd;
+}
+a:hover {
+  text-decoration: none;
+  color: #ff852b;
+  border-bottom: 0.1em dashed;
+}
+
+strong {
+  color: #18a0dd;
+  font-weight: 700;
+}
+span.highlight {
+  color: #ff852b;
+  border-bottom: 0.15em dotted;
+}
+span.underline {
+  border-bottom: 0.15em dotted;
+}
+
+/***************************************************************************/
+/* Header
+/***************************************************************************/
+
+header {
+  margin: 0 auto;
+  padding: 0;
+
+  background: #fff;
+
+  max-width: 80em;
+  line-height: 2em;
+
+
+  overflow: auto;
+}
+header img {
+  margin: 0;
+  padding 0;
+  max-height: 10em;
+}
+header div {
+  margin: 1em; 
+  padding: 0 ;
+  font-weight: 900;
+  font-size: 1.4em;
+  height: 90%;
+}
+@media screen and (min-width: 48em) {
+  header img {
+    float: left;
+  }
+  header div {
+    float: right;
+    text-align: right;
+  }
+}
+/***************************************************************************/
+/* div tagline
+/***************************************************************************/
+
+div.tagline {
+  background-color: #5e5e5e;
+  color: white;
+  font-weight: 700;
+  font-size: 1.6em;
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+}
+
+/***************************************************************************/
+/* section 
+/***************************************************************************/
+section {
+  max-width: 80em;
+  margin: 0 auto;
+  padding: 1em;
+  background-color: white;
+  display: block;
+  text-align: left;
+  overflow: auto;
+}
+
+section:after {
+  clear:both;
+  display: block;
+  content: " ";
+}
+/***************************************************************************/
+/* div main
+/***************************************************************************/
+
+section#main {
+  margin: 0 auto;
+  padding: 1em;
+  background-color: white;
+  display: block;
+  max-width: 80em;
+  text-align: left;
+}
+section#main p {
+  padding: 0.5em;
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+section#main img {
+  width: 100%;
+}
+section#main h2 {
+  font-size: 1.8em;
+  font-weight: 900;
+  line-height: 1.2em;
+  padding-bottom: 1em;
+}
+section#main h2 img {
+  width: 2em; 
+}
+
+/***************************************************************************/
+/* div content
+/***************************************************************************/
+/***************************************************************************/
+/* div brace
+/***************************************************************************/
+
+div#brace {
+    background-color: #c8c8c8;
+    padding: 0;
+    margin: 0;
+}
+div#brace form div#header {
+  background-color: #439ae4;
+  background-image: url("/images/Furaha-Software-Consultant-Form-Arrow.png"); 
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 4em auto;
+
+  padding: 1em 1em 1em 5em;
+
+  font-size: 1.4em;
+  color: white;
+  font-weight: 600;
+  text-align: left;
+}
+div#brace form ul#data {
+  padding: 1%;
+}
+div#brace form ul#data li {
+  margin: 1em;
+}
+div#brace form ul#data li.input input,textarea {
+  width: 98%;
+}
+div#brace form ul#data li.input textarea {
+  height: 15em;
+}
+div#brace form ul li.buttons {
+  text-align: center;
+}
+div#brace form ul li.buttons input {
+  background-color: #f49752;
+  -webkit-box-shadow: -10px 10px 0px 0px rgba(182, 182, 182, 1);
+  -moz-box-shadow: -10px 10px 0px 0px rgba(182, 182, 182, 1);
+  box-shadow: -10px 10px 0px 0px rgba(182, 182, 182, 1);
+
+  padding: 1em;
+  color: white;
+  font-weight: 900;
+  font-size: 1.4em;
+}
+
+@media screen and (min-width: 48em) {
+  section#main {
+    overflow: auto;
+  }
+  div#content {
+    width: 58em;
+    float: left;
+  }
+  div#brace {
+    float: right;
+    width: 20em;
+  }
+}
+@media screen and (max-width: 48em) {
+  section#main {
+    overflow: auto;
+  }
+  div#content {
+    width: 100%;
+  }
+  div#brace {
+    width: 100%;
+  }
+}
+
+/***************************************************************************/
+/* Section: technology
+/***************************************************************************/
+section#technology {
+  margin: 0 auto;
+  text-align: center;
+}
+section#technology:after {
+  clear:both;
+  display: block;
+  content: " ";
+}
+section#technology img {
+  float: left;
+  max-height: 10em;
+  margin: 1em 2em;
+}
+@media screen and (max-width: 48em) {
+  section#technology img {
+    max-width: 40%;
+    margin: 2%;
+  }
+}
+
+/***************************************************************************/
+/* Section: Team
+/***************************************************************************/
+section#team {
+  margin: 0 auto;
+  text-align: center;
+}
+section#team:after {
+  clear:both;
+  display: block;
+  content: " ";
+}
+section#team div {
+  float: left;
+  width: 14em;
+  margin: 1em 1em;
+}
+section#team div img {
+  width: 100%;
+}
+
+/***************************************************************************/
+/* footer
+/***************************************************************************/
+
+footer {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+
+  background-color: black;
+}
+
+footer div {
+  background-color: #231f20;
+  color: white;
+
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.8em;
+
+  margin: 1em auto;
+  padding: 0;
+
+  max-width: 80em;
+}
+
+footer img {
+  display: block;
+  margin: 0em auto;
+  padding: 0;
+  max-width: 100%;
+
+}
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+.posts li {
+  line-height: 1.75em;
+}
+
+.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  text-align: justify;
+  width: 100%;
+  line-height: 1.5em;
+}
+
+.header a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.title {
+  display: inline-block;
+  margin-bottom: 2em;
+}
+
+.title a {
+  color: #a00;
+}
+
+.title a:hover {
+  color: #000;
+}
+
+.header a.extra {
+  color: #aaa;
+  margin-left: 1em;
+}
+
+.header a.extra:hover {
+  color: #000;
+}
+
+.meta {
+  color: #aaa;
+}
+
+.footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+.footer .contact {
+  float: left;
+  margin-right: 3em;
+}
+
+.footer .contact a {
+  color: #8085C1;
+}
+
+.footer .rss {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
+}
+
+.footer .rss img {
+  border: 0;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
